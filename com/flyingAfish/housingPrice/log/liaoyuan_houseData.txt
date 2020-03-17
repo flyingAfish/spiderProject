@@ -1,0 +1,4 @@
+Logger:2020-03-16 15:36:59.873588 {'title': '星河万源', 'score': ' 4.4／5分', 'symbol': {'普通住宅', '毛坯', '商住公寓'}, 'price': '2100', 'houseType': set(), 'proAdrr': '东丰县向阳大街', 'kaiPan': '2008年6月'}
+Logger:2020-03-16 15:37:00.184713 {'title': '辽河半岛', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '4300', 'houseType': set(), 'proAdrr': '东丰县国税局对过', 'kaiPan': '2007.5.1'}
+Logger:2020-03-16 15:37:01.872744 {'title': '东方新城', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '2600', 'houseType': set(), 'proAdrr': '东丰县东方广场', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:37:04.753811 {'title': '新华时尚购物广场', 'score': ' 4.4／5分', 'symbol': {'毛坯'}, 'price': '18000', 'houseType': set(), 'proAdrr': '东丰县原步行街地下商场', 'kaiPan': ' 开盘提醒 '}

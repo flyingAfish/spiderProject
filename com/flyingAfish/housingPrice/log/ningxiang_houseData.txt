@@ -1,0 +1,73 @@
+Logger:2020-03-16 12:01:47.340863 {'title': '绿地中央花园', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '不限购', '毛坯', '商住公寓'}, 'price': '4300', 'houseType': {'', '三居(建面120�O)', '二居(建面98�O)', '三居(建面103�O)', '一居(建面40�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '金洲镇花明北路与金州大道交汇处西北角（宁乡县政府...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:49.030344 {'title': '金洲国际城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇长沙市宁乡县金洲大道金洲乡', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:49.363495 {'title': '福临门・名都', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯', '商住公寓'}, 'price': '1.5', 'houseType': {'', '一居(建面46�O)', '一居(建面50�O)', '一居(建面45�O)', '一居(建面48�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '玉潭街道宁乡二环路与文体路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:53.570198 {'title': '龙泉美墅', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '白马桥街道白马桥乡白龙路与入园大道交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:57.534637 {'title': '百宜华府', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇二环西路汪家冲(百宜华府)', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:57.794940 {'title': '安泰・幸福里', 'score': ' 4.0／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': {'', '三居(建面97�O)', '四居(建面115�O)', '三居(建面94�O)', '\n全部\n\t\t\t\t', '三居(建面95�O)'}, 'proAdrr': '花明楼镇宁乡县花明北路与学府路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:58.108059 {'title': '蓝月谷裕源国际山庄', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯', '复合地产'}, 'price': '3400', 'houseType': {'', '三居(建面124�O)', '二居(建面89�O)', '三居(建面134�O)', '\n全部\n\t\t\t\t', '三居(建面127�O)'}, 'proAdrr': '金洲镇诣园北路与金洲大道交汇处东北角（金洲桥金洲...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:58.374347 {'title': '金色夏威夷', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '3500', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县二环南路与安康路交汇处东南角（立交...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:58.633662 {'title': '福临门 名郡', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '1.5', 'houseType': {'', '二居(建面108�O)', '二居(建面82�O)', '二居(建面105�O)', '二居(建面103�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '玉潭街道宁乡大道与三环路交汇处（宁乡一中后门）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:58.908918 {'title': '美的国宾府', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '花园洋房', '毛坯', '现房'}, 'price': '待定', 'houseType': {'', '三居(建面116�O)', '三居(建面129�O)', '三居(建面110�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '金洲镇金洲大道和谐园路交汇处', 'kaiPan': '2018-08-08'}
+Logger:2020-03-16 12:01:59.170218 {'title': '宁乡蓝色港湾', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '带装修'}, 'price': '3800', 'houseType': set(), 'proAdrr': '金洲镇宁乡县金洲大道与东升路交汇处东北角（新屋湾...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:01:59.492398 {'title': '正源尚峰尚水', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇宁乡县长常高速公路与宁乡大道交汇处西南角（...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:01.347393 {'title': '东方现代城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡大道西侧（宁乡县国税局旁边）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:03.735087 {'title': '一品江山', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道二环西路汪家冲5号，文体中心2东侧', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:07.486969 {'title': '灰汤相里', 'score': '', 'symbol': {'普通住宅', '带装修'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道灰汤蒋琬路以西，迎宾路以南，乌江以北，灰...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:07.773203 {'title': '恒大国际广场', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '不限购', '带装修'}, 'price': '7000', 'houseType': {'', '三居(建面136�O)', '三居(建面109�O)', '三居(建面111�O)', '三居(建面112�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '白马桥街道花侯路与曲塘路交汇处往西300米（高铁南站...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:13.086072 {'title': '铂金汉宫', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县二环路文体中心旁', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:18.218261 {'title': '五街国际', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇金洲大道与宁乡大道的交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:18.495518 {'title': '明珠金沙湾', 'score': ' 3.9／5分', 'symbol': {'普通住宅', '毛坯', '复式', '教育地产'}, 'price': '6800', 'houseType': {'', '四居(建面140�O)', '四居(建面129�O)', '五居(建面142�O)', '\n全部\n\t\t\t\t', '三居(建面95�O)'}, 'proAdrr': '历经铺街道沩东新城沩江大道1号', 'kaiPan': '7月28日'}
+Logger:2020-03-16 12:02:18.769829 {'title': '天祺佰潮汇', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯', '商住公寓'}, 'price': '5000', 'houseType': set(), 'proAdrr': '花明楼镇宁乡县花明北路与一环路的交汇处东南角（大...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:25.823915 {'title': '湘核花园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇一环北路123号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:28.820929 {'title': '香樟美地', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡经开区东升路与三环路交汇处东南角', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:31.510746 {'title': '世纪花园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇二环路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:35.053229 {'title': '春城万象广场', 'score': '', 'symbol': {'毛坯', '商住公寓'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇花明路、八一路、楚沩路交汇处...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:38.171961 {'title': '颐和源', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇一环东路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:38.465098 {'title': '碧桂园山湖城', 'score': ' 3.9／5分', 'symbol': {'普通住宅', '带装修', '花园洋房'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇宁乡县金洲新区金洲大道东288号（明德麓谷学校...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:40.012957 {'title': '湘水郡', 'score': '', 'symbol': {'普通住宅', '不限购', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道时代阳光大道与万家丽南路交汇处东北角（洞...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:40.289258 {'title': '宁乡兆基君城', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县二环西路与文体路交汇处东南角', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:40.600385 {'title': '碧桂园山水桃园', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇宁乡县长常高速与岳临高速交汇处西北角', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:43.000030 {'title': '冠源爱琴湾', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡滨江路沿江风光带南段（三水厂旁）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:46.151547 {'title': '雅居乐依云小镇', 'score': '', 'symbol': {'联排', '带装修'}, 'price': '待定', 'houseType': set(), 'proAdrr': '灰汤镇宁乡县长沙灰汤镇', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:47.411165 {'title': '海博星河绿洲', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道长沙海博房地产开发有限公司', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:49.091670 {'title': '人民路九号', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡人民路9号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:49.909481 {'title': '中源凝香华都', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇花明北路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:50.654527 {'title': '公园道1号', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县白马桥二环南路与金凤路交叉处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:50.893848 {'title': '金融街中央领御', 'score': ' 3.6／5分', 'symbol': {'普通住宅', '不限购', '毛坯'}, 'price': '4000', 'houseType': {'', '三居(建面135�O)', '三居(建面134�O)', '\n全部\n\t\t\t\t'}, 'proAdrr': '玉潭街道二环路与花明北路交汇处西北角（天元大酒店...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:51.844348 {'title': '水木清华', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道玉潭镇二环南路与白龙路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:52.694033 {'title': '关山壹品', 'score': '', 'symbol': {'联排', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县金州新区关山度假区（长常高速关山收...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:53.513840 {'title': '金洲新城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县金洲大道与美洲路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:54.591004 {'title': '皇庭尚品', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县二环南路与白马东环线交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:59.083939 {'title': '翡翠园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇新山路45号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:02:59.901795 {'title': '澜湾', 'score': '', 'symbol': {'毛坯', '独栋'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇长沙市宁乡县金州大道299号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:00.906065 {'title': '钱隆公馆', 'score': '', 'symbol': {'毛坯', '商住公寓'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县花明北路与新康路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:01.157434 {'title': '中博富贵世家', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县二环东路88号（宁乡县法院西北角）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:02.229524 {'title': '长沙大世界', 'score': '', 'symbol': {'毛坯', '商住公寓'}, 'price': '待定', 'houseType': set(), 'proAdrr': '城郊街道宁乡县文体中心旁', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:03.362493 {'title': '翰林华府', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡二环西路（二环西路与人民北路交汇处）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:04.419707 {'title': '罗马假日', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡玉潭镇二环路玉潭镇政府旁', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:05.161680 {'title': '金洲明珠住宅小区(公租房)', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇金洲新区澳洲北路与金沙西路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:05.922644 {'title': '东城首座', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道玉潭东路与创业大道交汇处东南角', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:06.871142 {'title': '和谐家园白马小区', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '白马桥街道宁乡县白马桥乡金龙路与三环路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:07.757734 {'title': '学府花园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇三环路以北，人民北路以西（学...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:08.546660 {'title': '钓鱼台九号', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇二环南路（钓鱼台九号）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:09.767358 {'title': '小城南国水乡', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '白马桥街道宁乡二环南路与白龙路的交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:10.472509 {'title': '东城丽都', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇楚沩东路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:11.214488 {'title': '印象东城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县历经铺创业大道与金玉路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:11.505756 {'title': '流沙河商业街', 'score': ' 4.1／5分', 'symbol': {'商住公寓'}, 'price': '7000', 'houseType': set(), 'proAdrr': '流沙河镇流沙河商业街人民路中心广场', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:12.260701 {'title': '金湖嘉园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县金洲新区金洲大道', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:13.634015 {'title': '中部华天城・天峪', 'score': '', 'symbol': {'毛坯', '独栋'}, 'price': '待定', 'houseType': set(), 'proAdrr': '灰汤镇长沙市宁乡县灰汤乌江以东', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:14.330199 {'title': '龙桥御园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇宁乡县金洲镇龙桥村龙桥御园', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:14.962462 {'title': '关山创意园', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '金洲镇宁乡县金镇区（关山创意园）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:19.495335 {'title': '站前路商业街', 'score': '', 'symbol': {'毛坯', '商住公寓'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县经开区车站路以北', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:19.745665 {'title': '妙盛国际企业孵化港', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '4000', 'houseType': set(), 'proAdrr': '金州镇宁乡经开区金洲大道旁沩水桥西侧500米', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:20.028908 {'title': '龙熙温泉庄园', 'score': ' 4.0／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '灰汤镇宁乡县灰汤镇将军路8号（东鹜山桃花谷景区西北...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:20.806828 {'title': '昱盛・东方明珠', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇沿河路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:21.549839 {'title': '水晶城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇花明北路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:22.749670 {'title': '财富广场', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡一环路328号（原玉潭镇政府原办公楼）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:23.697094 {'title': '财汇立方', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇花明北路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:24.754266 {'title': '嘉诚首府', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道人民路与新康路交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:25.702728 {'title': '世纪阳光', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道玉潭镇一环北路128号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:26.409880 {'title': '财富金座', 'score': '', 'symbol': {'毛坯', '商住公寓'}, 'price': '待定', 'houseType': set(), 'proAdrr': '白马桥街道长沙市宁乡县二环南路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:27.156883 {'title': '锦江・锦绣兰亭', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇金亭路12号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:28.096327 {'title': '星恒.国仕汇', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道宁乡县玉潭镇二环西路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 12:03:28.828408 {'title': '湖南宁乡义乌小商品批发城', 'score': '', 'symbol': {'普通住宅', '毛坯'}, 'price': '待定', 'houseType': set(), 'proAdrr': '玉潭街道玉潭东路与金鑫路交汇处', 'kaiPan': ' 开盘提醒 '}

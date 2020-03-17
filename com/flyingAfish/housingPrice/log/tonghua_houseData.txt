@@ -1,0 +1,18 @@
+Logger:2020-03-16 15:35:45.030499 {'title': '保利・罗兰香谷', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '4500', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区滨江南路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:45.352638 {'title': '厚德载物花园', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '4000', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区江锦东路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:45.934119 {'title': '弘康丽城', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '3800', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区新岭路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:46.264220 {'title': '桂林山水城', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '尾盘', '毛坯'}, 'price': '3820', 'houseType': set(), 'proAdrr': '通化县通化市通化县新丰路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:46.616268 {'title': '江南小镇', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '6500', 'houseType': {'', '\n全部\n\t\t\t\t', '一居(建面38�O)', '三居(建面118�O)', '二居(建面92�O)', '一居(建面72�O)'}, 'proAdrr': '东昌区通化市东昌区万发拔子东侧300米', 'kaiPan': '2018-12'}
+Logger:2020-03-16 15:35:46.927604 {'title': '蓝爵国际', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': {'', '\n全部\n\t\t\t\t', '二居(建面76�O)'}, 'proAdrr': '东昌区新华大街西关蔬菜批发市场南侧', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:47.227805 {'title': '华翔佳苑', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '尾盘', '毛坯'}, 'price': '3608', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区光复路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:47.823678 {'title': '御景首府', 'score': ' 4.2／5分', 'symbol': {'联排', '独栋', '普通住宅', '尾盘', '毛坯'}, 'price': '5200', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区滨江路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:50.136257 {'title': '东正奥园', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '0.8', 'houseType': {'', '\n全部\n\t\t\t\t', '二居(建面73�O)', '三居(建面85�O)'}, 'proAdrr': '东昌区通化市东昌区新岭路三道沟', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:50.445521 {'title': '尚品・御景湾', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '4500', 'houseType': set(), 'proAdrr': '通化县通化市通化县沿河西街', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:50.741801 {'title': '丽景人家三期', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '5200', 'houseType': set(), 'proAdrr': '东昌区滨江新区', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:51.027440 {'title': '吉森・柏丽城', 'score': ' 3.9／5分', 'symbol': {'普通住宅', '带装修'}, 'price': '3500', 'houseType': set(), 'proAdrr': '梅河口市通化市梅河口市人民大街梅河五中西侧', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:51.396427 {'title': '阳光亿城', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '4700', 'houseType': set(), 'proAdrr': '东昌区光复路与清真西胡同交汇（一高中道口）', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:51.782412 {'title': '大禹城邦（辉南县）', 'score': ' 4.1／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '3400', 'houseType': set(), 'proAdrr': '辉南县通化市辉南县站前路与富强大街交汇客运站西行...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:52.078640 {'title': '金帝购物广场', 'score': ' 4.0／5分', 'symbol': {'普通住宅', '尾盘', '毛坯', '商住公寓'}, 'price': '4300', 'houseType': set(), 'proAdrr': '通化县通化市通化县长征路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:52.404512 {'title': '龙湾会馆', 'score': ' 3.9／5分', 'symbol': {'普通住宅', '毛坯'}, 'price': '6100', 'houseType': set(), 'proAdrr': '东昌区通化市东昌区滨江西路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:52.716088 {'title': '桂名西苑', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '东昌区滨江西路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 15:35:53.341451 {'title': '万通名苑', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '东昌区光明路站点对过', 'kaiPan': ' 开盘提醒 '}

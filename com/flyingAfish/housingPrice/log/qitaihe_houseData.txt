@@ -1,0 +1,11 @@
+Logger:2020-03-16 10:43:03.126125 {'title': '七号公馆', 'score': ' 4.0／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '桃山区七台河市桃山区友谊会馆北行100米', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:03.429968 {'title': '绥美小区', 'score': ' 4.0／5分', 'symbol': {'普通住宅'}, 'price': '1200', 'houseType': set(), 'proAdrr': '勃利县绥化市北四西路顺达物流西侧', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:06.184237 {'title': '奥维馨苑', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '勃利县维馨苑售楼处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:06.456964 {'title': '米拉经典', 'score': ' 3.7／5分', 'symbol': {'普通住宅'}, 'price': '2950', 'houseType': set(), 'proAdrr': '桃山区皇姑区昆山西路15号', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:06.774560 {'title': '嘉兴闽江国际', 'score': ' 4.2／5分', 'symbol': {'普通住宅', '国际化社区 ', '毛坯', '打折优惠楼盘'}, 'price': '7400', 'houseType': {'', '一居(建面63�O)', '一居(建面62�O)', '\n全部\n\t\t\t\t', '二居(建面70�O)'}, 'proAdrr': '勃利县闽江路与嘉兴路（规划路）交汇处', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:07.045606 {'title': '艺格春天', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '4675', 'houseType': set(), 'proAdrr': '桃山区铁西区保工北街与北四中路交汇处（新北方装饰...', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:07.325854 {'title': '纳帕阳光', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '桃山区七台河市桃山区越秀路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:07.613297 {'title': '秀水嘉园', 'score': ' 4.2／5分', 'symbol': {'普通住宅'}, 'price': '1470', 'houseType': set(), 'proAdrr': '勃利县绥化市政府大楼对面\u3000秀水嘉园', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:07.869517 {'title': '时代丽景', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '2700', 'houseType': set(), 'proAdrr': '勃利县时代广场东门', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:08.297007 {'title': '韵动领地', 'score': ' 4.3／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '桃山区七台河市桃山区越秀路', 'kaiPan': ' 开盘提醒 '}
+Logger:2020-03-16 10:43:08.609502 {'title': '文苑花园', 'score': ' 4.1／5分', 'symbol': {'普通住宅'}, 'price': '待定', 'houseType': set(), 'proAdrr': '勃利县北方外国语学院楼后', 'kaiPan': ' 开盘提醒 '}

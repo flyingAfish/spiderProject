@@ -25,7 +25,7 @@ class fangtianxia:
 
     def playSound(self):
         from playsound import playsound
-        playsound('./sound/111.mp3')
+        playsound('../sound/111.mp3')
 
     def printLog(self, filename, log):
         logPth = './log'
@@ -62,9 +62,12 @@ class fangtianxia:
             f.flush()
 
     def saveExcel(self, data, bookName, sheetName):
+        """"
+        """
         wb = xlwings.Book(bookName)
         sheet = wb.sheets.add(sheetName)
-        sheet.range('A')
+        sheet.range('A').value = data
+        wb.save('./data/excelData/' + bookName +'.xlsx')
 
     def generateHeader(self, sum):
         headersList = []

@@ -1,6 +1,7 @@
 # coding=utf-8
-import os
+import os, time
 from multiprocessing import Pool
+from threading import Thread
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 """
 但实测会出现错误AttributeError: 'NoneType' object has no attribute 'stdout'，
@@ -74,8 +75,18 @@ def start(path):
     pool.map(volumeX(fnames=fnames, path=ipath), fnames)
     pool.close()
 
-if __name__ == '__main__':
-    path = 'G:\哔哩哔哩视频\华清远见1-linuxc语言学习'
-    # start(path)
+def begin(path):
     fnames, ipath = getFnames(path=path, paraller=False)  # 获取待转换的视频名字
     volumeX(fnames, ipath, 5, 8)
+
+def start1(path, threads=1):
+    for i in range(threads+1):
+        th = Thread(target=begin, name=i, args=(path,))
+        th.start()
+        th.join()
+        print(th.getName(), '\n')
+        time.sleep(1)
+
+if __name__ == '__main__':
+    path = 'G:\哔哩哔哩视频\华清远见2-linuxC语言高级'
+    start1(path, 8)

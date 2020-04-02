@@ -145,8 +145,12 @@ def downloadsAll(url, is_delete_m4p=False):
         maxPage = len(multiPage)
     print("maxPage:", maxPage)
 
-    urlArr = url.split("?")[0].split('av')
-    aid = urlArr[len(urlArr) - 1]
+    print('正在下载：', url)
+    # https://www.bilibili.com/video/BV1BJ411U7hW?from=search&seid=532615407602652134
+    # urlArr = url.split("?")[0].split('av')
+    # aid = urlArr[len(urlArr) - 1]
+    aid = url.split('?')[0].split('/')[-1]
+
     # 解析json获取视频选集名字典{pageNum: title}
     tileList = parseJson(aid)
     for p in range(minPage, maxPage + 1):
@@ -181,10 +185,12 @@ def parseJson(aid):
     """
     hv = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'}
-    url = 'https://api.bilibili.com/x/player/pagelist?aid=%s&jsonp=jsonp'%(aid)
+    # url = 'https://api.bilibili.com/x/player/pagelist?aid=%s&jsonp=jsonp'%(aid)
+    url = 'https://api.bilibili.com/x/player/pagelist?bvid=%s&jsonp=jsonp'%(aid)
     jsonStr: str = requests.get(url, headers=hv).content.decode('utf-8')
     import json
     jsonObject: dict = json.loads(jsonStr)
+    print(url, '\t', jsonStr)
     return jsonObject['data']
 
 def removeAll(path):
@@ -239,5 +245,7 @@ if __name__ == '__main__':
     # 测试下载程序OK
     # downloadsAll("https://www.bilibili.com/video/av75859780", True)
     # downloadsAll("https://www.bilibili.com/video/av55181893", True)
+    # https://www.bilibili.com/video/BV1BJ411U7hW?from=search&seid=532615407602652134
     # 'https://api.bilibili.com/x/player/pagelist?aid=55181893&jsonp=jsonp'
+    # https://api.bilibili.com/x/player/pagelist?bvid=BV1BJ411U7hW&jsonp=jsonp
     # driverSpader()

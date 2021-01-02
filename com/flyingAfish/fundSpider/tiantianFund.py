@@ -6,13 +6,15 @@ import random
 import datetime
 import json
 import time
-import xlwings
+from lxml import etree
 import os, re
 import pandas as pd
 import numpy as np
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup, ResultSet, Tag
 
+
+# noinspection PyUnresolvedReferences
 class zoFund():
     """
     中欧基金管理公司-天天基金网
@@ -83,12 +85,29 @@ class zoFund():
                             datetime_format='YYYY-MM-DD HH:MM:SS') as writer:
             dfData.to_excel(writer)
 
+
+    def mysqlConn(self):
+        # 导入pymysql模块
+        import pymysql
+        # 连接database
+        conn = pymysql.connect(
+            host='localhost', port=3306,
+            user='root', password='root',
+            database='tiantianfund', charset='utf8',
+            use_unicode=True
+        )
+        # 得到一个可以执行SQL语句并且将结果作为字典返回的游标
+        cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
+        return conn, cursor
+
     def getBasicData(self, url):
         html = self.parseUrl(url)
         bs = BeautifulSoup(html, 'html.parser')
         trList = bs.select('div[id="kfsFundNetWrap"] > table > tbody > tr')
         headersList = self.generateHeader(len(trList))
         print('tr：', len(trList))
+
+        conn, cursor = self.mysqlConn()
 
         baseDatas = []
         for tr in trList:
@@ -115,24 +134,30 @@ class zoFund():
                 print(innerTrs)
                 aList = innerTrs[0].find_all('td') if len(innerTrs) > 0 else []
                 tdList = innerTrs[1].find_all('td') if len(innerTrs) > 0 else []
-                dataDict['基金类型'] = aList[0].get_text() if len(aList) > 0 else self.printLog(dataDict['基金名称'],
-                                                                                            'no fundType')
-                dataDict['基金规模'] = aList[1].get_text() if len(aList) > 1 else self.printLog(dataDict['基金名称'],
-                                                                                            'no fundScale')
-                dataDict['基金经理'] = aList[2].get_text() if len(aList) > 2 else self.printLog(dataDict['基金名称'],
-                                                                                            'no fundManager')
-                dataDict['成立日期'] = tdList[0].get_text() if len(tdList) > 0 else self.printLog(dataDict['基金名称'],
-                                                                                              'no estbDate')
-                dataDict['管理公司'] = tdList[1].get_text() if len(tdList) > 1 else self.printLog(dataDict['基金名称'],
-                                                                                              'no company')
-                jjpj1 = tdList[2].get_text() if len(tdList) > 2 else self.printLog(dataDict['基金名称'], 'no fundScore')
+                dataDict['基金类型'] = aList[0].get_text().split("：")[-1] if len(aList) > 0 else self.printLog(dataDict['基金名称'], 'no fundType')
+                dataDict['基金规模'] = aList[1].get_text().split("：")[-1] if len(aList) > 1 else self.printLog(dataDict['基金名称'], 'no fundScale')
+                dataDict['基金经理'] = aList[2].get_text().split("：")[-1] if len(aList) > 2 else self.printLog(dataDict['基金名称'], 'no fundManager')
+                dataDict['成立日期'] = tdList[0].get_text().split("：")[-1] if len(tdList) > 0 else self.printLog(dataDict['基金名称'], 'no estbDate')
+                dataDict['管理公司'] = tdList[1].get_text().split("：")[-1] if len(tdList) > 1 else self.printLog(dataDict['基金名称'], 'no company')
+                jjpj1 = tdList[2].get_text().split("：")[-1] if len(tdList) > 2 else self.printLog(dataDict['基金名称'], 'no fundScore')
                 jjpj2 = tdList[2].find('div')['class'] if (tdList[2].find('div') if len(
                     tdList) > 2 else None) is not None else ''
                 dataDict['基金评级'] = jjpj1 if jjpj1 is not None else '' + jjpj2 if isinstance(jjpj2, str) else ''
                 print('dataDict', dataDict)
+                basicSql = """
+                    INSERT INTO `tiantianfund`.`fund_basic` (`fund_url`, `fund_name`, `fund_code`, `fund_type`, `fund_scale`, `fund_manager`, `fund_estbdate`, `fund_company`, `fund_grade`) 
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);
+                """
+                params = [dataDict['href'], dataDict['基金名称'], dataDict['基金代号'], dataDict['基金类型']
+                           , dataDict['基金规模'], dataDict['基金经理'], dataDict['成立日期'], dataDict['管理公司']
+                           , dataDict['基金评级']]
+                cursor.execute(basicSql, params)
+                conn.commit()
                 baseDatas.append(dataDict)
 
             # self.saveData("基金基础数据.txt", str(dataDict))
+        conn.close()
+        cursor.close()
         return baseDatas
 
     def getNetValue(self, code, per=10, sdate='', edate='', proxies=None):
@@ -142,6 +167,8 @@ class zoFund():
         html = self.parseUrl(url, params, proxies, headers)
         soup = BeautifulSoup(html, 'html.parser')
         print(html)
+
+        conn, corsor = self.mysqlConn()
 
         # 获取总页数
         pattern = re.compile(r'pages:(.*),')
@@ -173,9 +200,22 @@ class zoFund():
                         row_records.append(val[0])
                 # 记录数据
                 records.append(row_records)
+
+                netvalueSql = '''
+                    INSERT INTO `tiantianfund`.`fund_net_value` (`fund_code`, `net_value_date`, `net_asset_value`, `acc_net_value`, `date_of_growth`, `subs_state`, `back_state`, `Dividends`) 
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+                '''
+                params = [code]
+                for param in row_records:
+                    params.append(str(param))
+                print(params)
+                corsor.execute(netvalueSql, params)
+                conn.commit()
             # 下一页
             page = page + 1
 
+        conn.close()
+        corsor.close()
         # 数据整理到 dataframe
         np_records = np.array(records)
         data = pd.DataFrame()

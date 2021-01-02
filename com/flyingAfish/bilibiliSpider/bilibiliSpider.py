@@ -11,7 +11,8 @@ from time import sleep  # 这个后面会用到
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 
-order, infors = 1, []
+order = 1
+infors = []
 table = PrettyTable(['序号', 'up主', '标题', '视频时长', '投稿日期', '播放量', '试看链接'])
 path = 'G:\哔哩哔哩视频'
 path_ = 'G:\哔哩哔哩视频\m4s文件集'
@@ -59,7 +60,7 @@ def _getUrlsForPages(content, pages=1):
         table.add_row(info)
     print(table)
     print(infors)
-    number = input('输入要下载的视频序号：').split('.')
+    number = input('输入要下载的视频序号（多个视频用.隔开）：').split('.')
     return [infors[int(i) - 1][-1] for i in number]
 
 def download(url, savePath, childPath, fileName):
